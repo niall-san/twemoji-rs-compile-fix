@@ -1,7 +1,7 @@
 # twemoji-rs
 Small Rust crate to provide the twemoji icon corresponding to a string
 
-```rs
+```rust
 use twemoji_rs::get_twemoji;
 
 if let Some(path_to_icon) = get_twemoji("🚀") {
