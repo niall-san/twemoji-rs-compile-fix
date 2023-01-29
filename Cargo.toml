@@ -4,11 +4,11 @@ version = "0.1.0"
 edition = "2021"
 description = "A word-cloud image generation crate."
 license = "Unlicense"
-repository = "https://github.com/Inspirateur/wordcloud-rs"
+repository = "https://github.com/Inspirateur/twemoji-rs"
 keywords = ["twemoji", "emoji", "twitter", "icon", "unicode"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-itertools = "*"
-lazy_static = "*"
+itertools = "0.10"
+lazy_static = "1.4"
