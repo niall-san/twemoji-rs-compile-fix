@@ -1,4 +1,8 @@
 # twemoji-rs
+⚠️ Right now it seems making this crate as I envisionned it is not feasible  
+⚠️ So it is on hold (and non functionning) until this is answered:  
+⚠️ https://github.com/rust-lang/cargo/issues/11683
+
 Small Rust crate to provide the twemoji icon corresponding to a string
 
 ```rust
