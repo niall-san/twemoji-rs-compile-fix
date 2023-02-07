@@ -5,7 +5,7 @@ edition = "2021"
 description = "A word-cloud image generation crate."
 license = "Unlicense"
 repository = "https://github.com/Inspirateur/twemoji-rs"
-keywords = ["twemoji", "emoji", "twitter", "icon", "unicode", "image", "emoticon", "text"]
+keywords = ["twemoji", "emoji", "icon", "unicode", "image"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
