@@ -1,5 +1,5 @@
 # twemoji-rs
-Small Rust crate to provide the twemoji icon .png corresponding to a string
+Small Rust crate to provide the twemoji icon .png corresponding to a string. Fixed (bodged) to allow assets to be included at compile time.
 
 ```rust
 use twemoji_rs::get_twemoji;
