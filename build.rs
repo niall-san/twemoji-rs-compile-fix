@@ -32,7 +32,7 @@ fn main() {
         if path.is_file() {
             let file_name = path.file_name().unwrap().to_str().unwrap();
             let const_name = sanitize_identifier(file_name);
-            writeln!(f, "static {}: &'static [u8] = include_bytes!(\"{}\");", const_name, path.to_str().unwrap()).unwrap();
+            writeln!(f, "static {}: &'static [u8] = include_bytes!(r#\"{}\"#);", const_name, path.to_str().unwrap()).unwrap();
             filenames.push(file_name.to_owned());
         }
     }
